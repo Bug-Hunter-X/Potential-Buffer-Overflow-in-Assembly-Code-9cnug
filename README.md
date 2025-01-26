@@ -1,0 +1,1 @@
+This repository demonstrates a potential buffer overflow vulnerability in a short snippet of assembly code.  The vulnerable instruction is `mov eax, [ebx+ecx*4]`.  The solution shows how to add bounds checking to prevent this vulnerability.  This is a crucial concept for writing secure assembly code, as buffer overflows can be exploited by malicious actors.
